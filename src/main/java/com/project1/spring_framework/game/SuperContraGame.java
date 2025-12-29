@@ -1,8 +1,8 @@
 package com.project1.spring_framework.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements GamingConsole {
 	public void up() {
-		System.out.println("Jump");
+		System.out.println("Up");
 	}
 
 	public void down() {
@@ -15,6 +15,6 @@ public class SuperContraGame {
 
 	}
 	public void right() {
-		System.out.println("Move forward");
+		System.out.println("Shoot a bullet");
 	}
 }
